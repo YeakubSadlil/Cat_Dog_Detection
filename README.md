@@ -18,7 +18,9 @@
 * [Preprocessing](#Preprocessing)
 * [Training and Modeling](#Training-and-Modeling)
 * [Evaluation](#Evaluation)
+* [Results](#Results)
 * [Conclusion](#Conclusion)
+
 
 ## About The Project
 This project aims to detect cats and dogs in images using the YOLOv8 algorithm. It was trained on a dataset of 103 annotated cat and dog images and achieved an F1-score of 0.92.
@@ -79,6 +81,13 @@ the classifier is performing well across all classes.
 </p>
 
 92% times cats and dogs are correctly identified when they were actually cats and dogs.
+## Results
+</p>
+<p align="centre">
+  <img src="https://github.com/YeakubSadlil/Cat_Dog_Detection/blob/master/Cat_dog_data/images/test/pexels-photo-4214919.jpeg" height="40%" width="30%">
+
+<img align="centre">
+  <img src="https://github.com/YeakubSadlil/Cat_Dog_Detection/blob/master/runs/detect/nanoModel2/predict/pexels-photo-4214919.jpeg" height="40%" width="30%">
 
 ## Conclusion
 This project demonstrates the effectiveness of YOLOv8 for object detection in small datasets. With further training and optimization,<br> the model can be improved to achieve even higher accuracy and performance
