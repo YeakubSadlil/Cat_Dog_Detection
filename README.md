@@ -96,12 +96,12 @@ This project demonstrates the effectiveness of YOLOv8 for object detection in sm
   
 <html>
   <head>
-    <title>Title of the document</title>
+    <title>Detection</title>
   </head>
   <body>
     <video width="320" height="240" controls>
       <source src="https://github.com/YeakubSadlil/Cat_Dog_Detection/blob/master/runs/detect/nanoModel2/predict2/cat_dog.mp4" type=video/mp4>
     </video>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    <p>Video.</p>
   </body>
 </html>
