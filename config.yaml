@@ -1,0 +1,6 @@
+train: '/home/yakub/Documents/Python/Cat_Dog_Detection/Cat_dog_data/images/train'
+val: '/home/yakub/Documents/Python/Cat_Dog_Detection/Cat_dog_data/images/val'
+nc: 2
+names:
+  0: cat
+  1: dog
