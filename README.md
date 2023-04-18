@@ -16,7 +16,9 @@
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
 * [Preprocessing](#Preprocessing)
-* [Results](#results)
+* [Training and Modeling](#Training-and-Modeling)
+* [Evaluation](#Evaluation)
+* [Conclusion](#Conclusion)
 
 ## About The Project
 This project aims to detect cats and dogs in images using the YOLOv8 algorithm. It was trained on a dataset of 103 annotated cat and dog images and achieved an F1-score of 0.92.
