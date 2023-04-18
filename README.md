@@ -91,3 +91,17 @@ the classifier is performing well across all classes.
 
 ## Conclusion
 This project demonstrates the effectiveness of YOLOv8 for object detection in small datasets. With further training and optimization,<br> the model can be improved to achieve even higher accuracy and performance
+
+  
+  
+<html>
+  <head>
+    <title>Title of the document</title>
+  </head>
+  <body>
+    <video width="320" height="240" controls>
+      <source src="https://github.com/YeakubSadlil/Cat_Dog_Detection/blob/master/runs/detect/nanoModel2/predict2/cat_dog.mp4" type=video/mp4>
+    </video>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+  </body>
+</html>
