@@ -15,9 +15,11 @@
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
+* [How to Use the Model?](#How-to-Use-the-Model?)
 * [Preprocessing](#Preprocessing)
 * [Training and Modeling](#Training-and-Modeling)
 * [Evaluation](#Evaluation)
+* [Model Deployment with Flask Api](#Model-Deployment-with-Flask-Api)
 * [Results](#Results)
 * [Conclusion](#Conclusion)
 
@@ -36,10 +38,19 @@ To get a local copy up and running, follow these simple steps.
 * YOLOv8
 * ultralytics
 * torch>=1.7.0
+* Flask
+* OpenCV
 ### Installation
 1. Clone the repo
    ```sh
    git clone https://github.com/YeakubSadlil/Cat_Dog_Detection.git 
+   
+## How to Use the Model?
+* Simply navigate to the direcory 'FlaskApi'
+* Run the python file 'app.py'.
+* Go to the link on your browser http://127.0.0.1:5000/
+* It will show you an user interface to upload image.
+* Upload and wait, you will get your annotated image.
 
 ### Preprocessing
 I've annotated 103 images to yolo format using <a href="https://www.cvat.ai/">CVAT.ai</a>.The images with no objects are annotated as 0.<br>
@@ -81,6 +92,17 @@ the classifier is performing well across all classes.
 </p>
 
 92% times cats and dogs are correctly identified when they were actually cats and dogs.
+
+## Model Deployment with Flask Api
+This is a Python Flask web application that allows users to upload an image file (PNG, JPG, JPEG).<br>
+Once an image is uploaded, the application performs object detection on the image using a function<br>
+called bounding_image defined in the file image_detection.py. The detected objects are then annotated<br>
+with bounding boxes and the annotated image is returned as the response to the user's request.<br>
+
+The allowed_file function checks if the uploaded file is a valid image file. If the file is invalid or<br>
+not present, the application returns an error message.<br>
+
+The HTML template displays a simple upload form for the user to select an image file and submit it to the server.<br>
 ## Results
 </p>
 <p align="centre">
