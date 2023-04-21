@@ -15,7 +15,7 @@
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
-* [How to Use the Model?](#How-to-Use-the-Model?)
+* [How to Use the Model](#How-to-Use-the-Model)
 * [Preprocessing](#Preprocessing)
 * [Training and Modeling](#Training-and-Modeling)
 * [Evaluation](#Evaluation)
