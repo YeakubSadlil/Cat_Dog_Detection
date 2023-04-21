@@ -28,7 +28,9 @@
 This project aims to detect cats and dogs in images using the YOLOv8 algorithm. It was trained on a dataset of 103 annotated cat and dog images and achieved an F1-score of 0.92.
 
 ### Why YOLOv8 ?
-YOLOv8 is a highly efficient and accurate object detection system that is well-suited for real-time object detection applications<br> and itis the latest version of the YOLO series. Its combination of a ResNet-50 backbone, Mosaic data augmentation.
+YOLOv8 is a highly efficient and accurate object detection system that is well-suited for real-time object detection applications<br>
+and itis the latest version of the YOLO series. Its combination of a ResNet-50 backbone, Mosaic data augmentation.<br>
+YOLOv8 outperforms all previous YOLO models.
 
 ## Getting Started
 To get a local copy up and running, follow these simple steps.
